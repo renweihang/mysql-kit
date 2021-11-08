@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "MySQLKit", targets: ["MySQLKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/renweihang/mysql-nio.git", branch: "main"),
+        .package(url: "https://github.com/renweihang/mysql-nio.git", from: "1.0.0"),
         .package(url: "https://github.com/renweihang/sql-kit.git", from: "3.12.0"),
         .package(url: "https://github.com/renweihang/async-kit.git", from: "1.0.0"),
         .package(url: "https://github.com/renweihang/swift-crypto.git", from: "1.0.0"),
